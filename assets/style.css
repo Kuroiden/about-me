@@ -1,0 +1,241 @@
+@import url('https://fonts.googleapis.com/css2?family=M+PLUS+Rounded+1c&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Azeret+Mono&display=swap');
+
+body {
+	background-color: #03030d;
+	margin: auto 10%;
+	color: #fff;
+	font-size: 20px;
+	font-family: 'M PLUS Rounded 1c', sans-serif;
+	line-height: 1.25;
+}
+
+section {
+	background-color: #100f24;
+	border: 1px solid #372ee6;
+	padding: 20px;
+	position: relative;
+	display: flex;
+	flex-direction: column;
+	overflow: hidden;
+}
+
+h3 {
+	margin-bottom: 0px;
+	font-family: 'Azeret Mono', monospace;
+}
+
+a, button {
+	background-color: #100f24;
+	border: 1px solid #372ee6;
+	border-radius: 7px;
+	width: 105px;
+	padding: 5px 8px;
+	margin: auto 0 auto auto;
+	overflow: hidden;
+	color: #372ee6;
+	font-size: 18px;
+	text-align: left;
+	font-weight: bold;
+	text-decoration: none;
+	white-space: nowrap;
+	transition: linear .15s;
+	cursor: pointer;
+}
+
+.title {
+	border-bottom: 1px solid #372ee6;
+	width: fill;
+	padding: 10px;
+	margin: -20px -20px 0px;
+	text-align: left;
+	font-size: 14px;
+	user-select: none;
+}
+
+.title i {
+	margin-right: 10px;
+	cursor: pointer;
+}
+
+.ribbon {
+	border-bottom: 1px solid #372ee6;
+	width: fill;
+	padding: 0px;
+	margin: 0px -20px;
+	border-spacing: 0px;
+	display: inline;
+	text-align: center;
+	font-size: 12px;
+	user-select: none;
+}
+
+.ribbon th {
+	width: auto;
+	padding: 3px 10px;
+}
+
+.ribbon th:hover {
+	background-color: #372ee6;
+}
+
+#hi {
+	width: fit-content;
+	height: fit-content;
+	margin: 60px auto 20px 10%;
+	user-select: none;
+}
+
+#greeting {
+	width: fill;
+	height: fill;
+	float: right;
+	margin: -90px 0 auto auto;
+	font-size: 75px;
+	text-shadow: 0px 0px 25px #000;
+	user-select: none;
+}
+	
+#me {
+	width: 42%;
+	margin: -47% 10% auto auto;
+}
+
+#me h3 {
+	border-bottom: 1px solid #372ee6;
+	padding-bottom: 10px;
+}
+
+#me a i {
+	margin-left: 0px;
+	transition: linear .15s
+}
+
+#me a:hover {
+	background-color: #372ee6;
+	color: #fff;
+	transition: linear .15s
+}
+
+#me a:hover i {
+	margin-left: 5px;
+	transition: linear .15s
+}
+
+#interests {
+	width: 25%;
+	margin: 120px auto 0px 10px;
+}
+
+#bar {
+	animation: blink 1.1s infinite;
+	user-select: none;
+}
+
+@keyframes blink {
+	49% {visibility: visible;}
+	50% {visibility: hidden;}
+	99% {visibility: hidden;}
+	100% {visibility: visible;}
+}
+
+#music {
+	width: 63%;
+	margin: -35% 5px 40px auto;
+}
+
+#player, #interface {
+	width: fill;
+	height: fit-content;
+	margin: 0px -20px;
+	text-align: left;
+	border-spacing: 0;
+}
+
+#player th, #interface th {
+	font-weight: normal;
+}
+
+#player td, #interface td {
+	border-top: 1px solid #372ee6;
+	border-right: 1px solid #372ee6;
+	height: auto;
+	font-size: 12px;
+	cursor: pointer;
+}
+
+#player td:hover {
+	background-color: #372ee6;
+}
+
+#player td p, #interface td ph {
+	margin: 7px 5px;
+}
+
+#timeline {
+	width: fill;
+	height: 5px;
+	margin: 0px -20px;
+	border-spacing: 0;
+}
+
+#ui {
+	width: fill;
+	height: 50px;
+	margin: 0px -20px -20px;
+	border-spacing: 0;
+}
+
+#ui tr {
+	font-size: 14px;
+	user-select: none;
+}
+
+#ui tr i, #ui tr p {
+	margin: 0px 5px;
+	display: inline;
+	font-size: 14px;
+}
+
+#ui tr i{
+	cursor: pointer;
+}
+
+#ui tr p{
+	cursor: context-menu;
+}
+
+#games {
+	margin-bottom: 75px;
+}
+
+#interface {
+	margin-bottom: -20px;
+}
+
+#interface button {
+	width: 150px;
+	display: inline;
+	text-align: center;
+	text-transform: uppercase;
+}
+
+#play {
+	background-color: #372ee6;
+	color: #fff;
+}
+
+#play:hover {
+	background-color: #181366;
+	border-color: #181366;
+}
+
+#uninstall:hover {
+	background-color: #181366;
+	border-color: #181366;
+	color: #fff;
+}
+
+div, ul {
+	font-size: 18px;
+}
